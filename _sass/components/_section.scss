@@ -1,0 +1,20 @@
+.section {
+    padding: var(--grid-x7) 0;
+
+    &--joined-below {
+        padding-bottom: 0;
+    }
+
+    &--gradient {
+        background: linear-gradient(135deg, var(--color-wp-blue) 0%, var(--color-wp-blue-dark) 100%);
+    }
+
+    p:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.section--gradient h2,
+.section--gradient p {
+    color: white;
+}

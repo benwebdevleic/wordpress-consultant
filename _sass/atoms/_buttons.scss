@@ -1,0 +1,29 @@
+.button {
+    display: inline-block;
+    padding: var(--grid-x2) 40px;
+    text-decoration: none;
+    border-radius: var(--radius-sm);
+    font-size: 1.1em;
+    font-weight: 600;
+    transition: background-color var(--transition-base);
+
+    .hero__content & {
+        display: table; /* allows centering cross browser */
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.button--primary {
+    background-color: var(--color-wp-blue-light);
+    color: white;
+}
+
+.button--primary:hover {
+    background-color: #0087be;
+}
+
+.button--primary:focus {
+    outline: 3px solid white;
+    outline-offset: 2px;
+}

@@ -1,0 +1,17 @@
+.card {
+    background-color: var(--color-bg-card);
+    padding: var(--grid-x4);
+    border-radius: var(--radius-md);
+
+    &__icon {
+        font-size: var(--grid-x8);
+        line-height: var(--grid-x8);
+        text-align: center;
+        display: block;
+        margin-bottom: var(--grid-x2);
+    }
+
+    &__title {
+        text-align: center;
+    }
+}
