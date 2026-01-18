@@ -1,21 +1,21 @@
 ---
 ---
 
-@use "bootstrap-grid";
+@import "bootstrap-grid";
 
-@use "variables" as *;
-@use "reset" as *;
-@use "typography" as *;
-@use "layout" as *;
-@use "utilities" as *;
+@import "variables";
+@import "reset";
+@import "typography";
+@import "layout";
+@import "utilities";
 
-@use "atoms/buttons" as *;
-@use "atoms/icons" as *;
+@import "atoms/buttons";
+@import "atoms/icons";
 
-@use "components/section" as *;
-@use "components/masthead" as *;
-@use "components/card" as *;
-@use "components/grid" as *;
+@import "components/section";
+@import "components/masthead";
+@import "components/card";
+@import "components/grid";
 
 /* Base */
 body {
