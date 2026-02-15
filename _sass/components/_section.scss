@@ -12,6 +12,13 @@
     p:last-child {
         margin-bottom: 0;
     }
+
+    &__heading {
+        /* remove the top half of the line-height of the heading
+           so the gaps at the top and bottom of a section is the
+           same visually */
+        margin-top: calc((1em - 1lh) / 2);
+    }
 }
 
 .section--gradient h2,
