@@ -3,6 +3,14 @@
     padding: var(--grid-x4);
     border-radius: var(--radius-md);
 
+    &--no-background-color {
+        background-color: transparent;
+    }
+
+    &--background-gradient-color {
+        background-color: var(--color-wp-blue-dark);
+    }
+
     &__icon {
         font-size: var(--grid-x8);
         line-height: var(--grid-x8);
@@ -13,5 +21,9 @@
 
     &__title {
         text-align: center;
+
+        .section--gradient & {
+            color: var(--color-text-primary);
+        }
     }
 }
