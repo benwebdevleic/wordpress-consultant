@@ -6,7 +6,7 @@ layout: default
         <div class="row">
             <div class="col-md-8 offset-md-2">
                 <div class="hero__content">
-                    <h2 class="centered">Independent WordPress Expertise</h2>
+                    <h2 class="centered section__heading">Independent WordPress Expertise</h2>
                     <p>{{ site.description }}</p>
                     <a href="mailto:{{ site.email }}" class="button button--primary">Contact me</a>
                 </div>
@@ -15,9 +15,9 @@ layout: default
     </div>
 </section>
 
-<section class="section section--joined-below">
+<section class="section">
     <div class="container">
-        <h2 class="centered">How can I help?</h2>
+        <h2 class="centered section__heading">How can I help?</h2>
         <div class="grid grid--auto-fit services">
             <div class="card">
                 <i class="bi bi-speedometer card__icon"></i>
@@ -61,12 +61,34 @@ layout: default
     </div>
 </section>
 
+<section class="section section--gradient">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <h2 class="centered section__heading">What do I offer?</h2>
+                <div class="grid grid--auto-fit services">
+                    <div class="card card--background-gradient-color">
+                        <i class="bi bi-lightbulb card__icon"></i>
+                        <h3 class="card__title">Consultancy</h3>
+                        <p>Spend time with you to understand what you're trying to achieve, what's working well for you and what isn't. Understanding what makes your situation unique makes it possible to put together a solution that will suit your needs.</p>
+                    </div>
+                    <div class="card card--background-gradient-color">
+                        <i class="bi bi-code-slash card__icon"></i>
+                        <h3 class="card__title">Development</h3>
+                        <p>If you need something bespoke I create custom WordPress plugins and themes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="section">
     <div class="container">
         <div class="row">
             <div class="col-md-8 offset-md-2">
-                <h2 class="centered">About me</h2>
-                <p>I'm {{ site.title }}, based in {{ site.location.county }}. I've worked with WordPress for almost 15 years and now offer consulting services to help organizations make better use of their sites.</p>
+                <h2 class="centered section__heading">About me</h2>
+                <p>I'm {{ site.title }}, based in {{ site.location.county }}. I've worked with WordPress for almost 15 years and now offer consulting and development services to help organizations make better use of their sites.</p>
                 <p>I work with charities, small businesses, and organizations that need expert WordPress input without agency overhead.</p>
             </div>
         </div>
@@ -77,10 +99,10 @@ layout: default
     <div class="container">
         <div class="row">
             <div class="col-md-8 offset-md-2">
-                <h2 class="centered">Get in Touch</h2>
-                <p>For advice, team training, or strategic guidance on your WordPress site.</p>
+                <h2 class="centered section__heading">Get in Touch</h2>
+                <p>For advice, team training, strategic guidance or custom development on your WordPress site.</p>
                 <div class="contact__info">
-                    <p>Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+                    <p class="centered"><a href="mailto:{{ site.email }}" class="button button--primary">Contact me</a></p>
                 </div>
             </div>
         </div>
