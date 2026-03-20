@@ -9,6 +9,10 @@
         background: linear-gradient(135deg, var(--color-wp-blue) 0%, var(--color-wp-blue-dark) 100%);
     }
 
+    &--light-grey {
+        background-color: var(--color-bg-card);
+    }
+
     p:last-child {
         margin-bottom: 0;
     }

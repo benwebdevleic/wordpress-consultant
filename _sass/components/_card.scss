@@ -11,6 +11,10 @@
         background-color: var(--color-wp-blue-dark);
     }
 
+    &--background-dark-color {
+        background-color: var(--color-bg-dark);
+    }
+
     &__icon {
         font-size: var(--grid-x8);
         line-height: var(--grid-x8);
